@@ -1,0 +1,24 @@
+# 관상가의 방: 한지 바탕, 먹색 글씨, 금색 포인트
+[theme]
+base = "light"
+primaryColor = "#8C6A2F"
+backgroundColor = "#F6F0E4"
+secondaryBackgroundColor = "#ECE2CE"
+textColor = "#2A2522"
+borderColor = "#D9CBB0"
+font = "Noto Sans KR:https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&display=swap, sans-serif"
+headingFont = "Nanum Myeongjo:https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@700;800&display=swap, serif"
+baseRadius = "10px"
+metricValueFontSize = "1.25rem"
+
+# 사이드바는 먹색 바탕
+[theme.sidebar]
+backgroundColor = "#2A2522"
+secondaryBackgroundColor = "#3A332E"
+textColor = "#F2E9D8"
+primaryColor = "#D4B06A"
+borderColor = "#4A423B"
+
+[server]
+# PRD F-01: 업로드 최대 10MB (업로더 안내 문구와 서버 제한 모두 적용)
+maxUploadSize = 10
