@@ -1,0 +1,11 @@
+# 비밀 정보
+.env
+.streamlit/secrets.toml
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Playwright 테스트 산출물
+.playwright-mcp/
